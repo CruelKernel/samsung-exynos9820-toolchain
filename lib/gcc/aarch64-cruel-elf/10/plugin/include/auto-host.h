@@ -1930,7 +1930,7 @@
 
 /* Define if valgrind's valgrind/memcheck.h header is installed. */
 #ifndef USED_FOR_TARGET
-#define HAVE_VALGRIND_MEMCHECK_H 1
+/* #undef HAVE_VALGRIND_MEMCHECK_H */
 #endif
 
 
@@ -1986,7 +1986,7 @@
 
 /* Define if you have a working <zstd.h> header file. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_ZSTD_H */
+#define HAVE_ZSTD_H 1
 #endif
 
 
